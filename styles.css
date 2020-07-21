@@ -1,8 +1,8 @@
-* {
+/* * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-}
+} */
 
 body {
   margin: 0;
@@ -13,11 +13,13 @@ body {
 ul {
   list-style: none;
 }
+li{
+    list-style: none;
+}
 
 a {
   text-decoration: none;
-  color: rgb(0, 136, 204);
-  ;
+  color: rgb(0, 136, 204); 
 }
 
 /* mainContainer */
@@ -27,70 +29,115 @@ a {
   background-repeat: no-repeat;
   width: 94%;
   height: 590px;
-  margin: -10px 0 0 37px;
-  display: flex;
+  margin: -100px 0 0 37px;
   cursor: pointer;
-  justify-content: center;
+  /* display: flex;  
+  justify-content: center; */
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-nav {
+.navbar {
   width: 65%;
-  /* display: flex; */
-  justify-content: center;
-  margin-top: 80px;
+  display: flex;  
   padding-top: 20px;
+  margin-top: 80px;
+  padding-left: 200px;
+  padding-top: 20px; 
+  flex-direction: row;
 }
 
-.gradbtn-style {
-  height: 38px;
+.gradlink-style {
+  height: 30px;
   width: 100px;
   margin-right: -5px;
-  padding: 5px 10px 5px 10px;
+  margin-top: 100px; 
+  padding: 16px 10px 5px 10px;
   background-color: rgb(43, 42, 42);
   border: 1px solid rgb(43, 42, 42);
   border-radius: 4%;
   color: white;
+  text-align: center;
+  /* text-align: justify; */
   font-family: Arial, Helvetica, sans-serif;
   background-image: linear-gradient(to top, #6a696b 0%, #080808 51%, #6a696b 100%);
 }
 
-.gradbtn-style:hover {
+.gradlink-style:hover {
   background-image: linear-gradient(to top, #bebbbb 0%, #464646 51%, #1b1b1b 100%);
+  
+}
+.gradlink-style:hover,.imageContainer:hover{
   cursor: pointer;
 }
 
-.vaerse-style {
+
+
+.verse-style {
+  display: flex;
+  justify-content: center;
   font-size: 70px;
-  font-weight: normal;
+  font-weight: normal;  
 }
 
 .verseDetails-style {
+  display: flex;
+  justify-content: center;
   margin-top: -30px;
+  font-size: 34px; 
+}
+.verseDetails1-style{
+  display: flex;
+  justify-content: center;  
   font-size: 34px;
+  margin-top: -25px;
 }
 
 .verselink-style a {
-  font-size: 30px;
-  font-weight: lighter;
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: lighter;  
+}
+.verselink-style a:hover{
+    text-decoration: underline;
 }
 
-.vaerse-style,
+.verse-style,
 .verseDetails-style,
+.verseDetails1-style,
 .verselink-style a {
   color: white;
+ 
 }
+
+.searchbtn{
+  width: 90px;
+  height: auto;
+  border: 1px solid #1b1b1b;
+  border-radius: 10%;
+  background-image: linear-gradient(to top, #6a696b 0%, #080808 51%, #6a696b 100%);
+
+}
+
+.ilinksearch {
+  position: absolute;
+  font-size: 14px;
+  padding-left: 10px;
+  padding-top: 2px;
+}
+
 
 /* imageContainer */
 .imageContainer {
   display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
-  margin: 0 63px 0 37px;
+  width: 93.5%;
+  margin: 0 30px 0 35px;
+  grid-template-columns: 25% 25% 25% 25%; 
 }
 
-/* ******************************************************************** */
+/* footer ******************************************************************** */
 
 .footer {
   margin-left: 10px;
@@ -101,21 +148,26 @@ nav {
   justify-content: space-between;
   margin-right: 200px;
   margin-top: 20px;
-  /* padding-top: 30px; */
+  margin-bottom: -10px;
+  font-size: 12px;
 }
 
 .first-footer-child {
   margin-top: 5px;
+  padding-left: 100px;
+}
+.first-footer,.first-footer-child, .second-footer {
+  padding-left: 100px;
 }
 
+
 .first-footer p {
-  font-size: 13px;
+ 
   color: #464646;
 }
 
 .first-footer a {
-  font-size: 13px;
-
+ 
   padding: 5px;
 }
 
@@ -131,12 +183,12 @@ nav {
 .usa-logo {
   padding-top: -10px;
   border-right: none;
-  height: 20px;
+  height: 15px;
 
 }
 
 .second-footer p {
   font-size: 13px;
   color: #464646;
-
+  margin-bottom: 15px;
 }
