@@ -127,7 +127,7 @@ a:hover {
 
 .imageContainer {
   display: grid;
-  width: 99.5%;
+  width: 99.2%;
   grid-template-columns: 25% 25% 25% 25%;
 }
 
