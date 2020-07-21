@@ -10,7 +10,7 @@
 
 ## Live Demo
 
-[NYT-Clone](https://rawcdn.githack.com/LamiaSristy/nytimes-clone/7d2a29e01ee9a7318f301de67f95a5e568b3ee5b/index.html)
+[Apple-Clone](https://raw.githack.com/AkintoyeOlamide/Apple-clone2/feature1/index.html)
 
 ## Authors
 
