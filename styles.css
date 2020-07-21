@@ -44,20 +44,30 @@ nav {
   }
 
   .vaerse-style{
-      font-size: 70px;
-      color: white;
+      font-size: 70px;   
       font-weight: normal;
   }
 
-  .verseDetails-style{
-    color: white;
+  .verseDetails-style{   
+    margin-top: -30px;
     font-size: 34px;
   }
 
-  .verselink-style a{
-    color: white;
+  .verselink-style a{  
     font-size: 30px;
+    font-weight: lighter;
   }
+  
+  .vaerse-style,  .verseDetails-style,  .verselink-style a{
+    color: white;
+  }
+
+  /* imageContainer */
+  .imageContainer{
+      display: grid;
+      grid-template-columns: 25% 25% 25% 25%;
+  }
+
 
 
 
