@@ -1,82 +1,142 @@
 * {
-    -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
-  }
-  body{
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-  }
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
-  /* mainContainer */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-.mainContainer{
-    background-image: url("img/your_verse_hero.png");
-    background-repeat: no-repeat;
-    width: 94%;
-    height: 590px;    
-    margin:-10px 0 0 37px;  
-    display: flex; 
-    cursor: pointer;
-    justify-content:  center;  
-    -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 136, 204);
+  ;
+}
+
+/* mainContainer */
+
+.mainContainer {
+  background-image: url("img/your_verse_hero.png");
+  background-repeat: no-repeat;
+  width: 94%;
+  height: 590px;
+  margin: -10px 0 0 37px;
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 nav {
-    width:65%;
-    /* display: flex; */
-    justify-content:  center;
-    margin-top:  80px  ; 
-    padding-top: 20px;
+  width: 65%;
+  /* display: flex; */
+  justify-content: center;
+  margin-top: 80px;
+  padding-top: 20px;
 }
 
-  .gradbtn-style{
-    height: 38px;
-    width:100px;
-    margin-right: -5px;
-    padding: 5px 10px 5px 10px;
-    background-color:rgb(43, 42, 42) ;
-    border: 1px solid rgb(43, 42, 42);
-    border-radius: 4%;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;    
-    background-image: linear-gradient(to top, #6a696b 0%, #080808 51%, #6a696b 100%);
-  }
-  .gradbtn-style:hover {  
-    background-image: linear-gradient(to top, #bebbbb 0%, #464646 51%, #1b1b1b 100%);
-    cursor: pointer;
-  }
+.gradbtn-style {
+  height: 38px;
+  width: 100px;
+  margin-right: -5px;
+  padding: 5px 10px 5px 10px;
+  background-color: rgb(43, 42, 42);
+  border: 1px solid rgb(43, 42, 42);
+  border-radius: 4%;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(to top, #6a696b 0%, #080808 51%, #6a696b 100%);
+}
 
-  .vaerse-style{
-      font-size: 70px;   
-      font-weight: normal;
-  }
+.gradbtn-style:hover {
+  background-image: linear-gradient(to top, #bebbbb 0%, #464646 51%, #1b1b1b 100%);
+  cursor: pointer;
+}
 
-  .verseDetails-style{   
-    margin-top: -30px;
-    font-size: 34px;
-  }
+.vaerse-style {
+  font-size: 70px;
+  font-weight: normal;
+}
 
-  .verselink-style a{  
-    font-size: 30px;
-    font-weight: lighter;
-  }
-  
-  .vaerse-style,  .verseDetails-style,  .verselink-style a{
-    color: white;
-  }
+.verseDetails-style {
+  margin-top: -30px;
+  font-size: 34px;
+}
 
-  /* imageContainer */
-  .imageContainer{
-      display: grid;
-      grid-template-columns: 25% 25% 25% 25%;
-      margin: 0 63px 0 37px;
-  }
+.verselink-style a {
+  font-size: 30px;
+  font-weight: lighter;
+}
 
+.vaerse-style,
+.verseDetails-style,
+.verselink-style a {
+  color: white;
+}
 
+/* imageContainer */
+.imageContainer {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  margin: 0 63px 0 37px;
+}
 
+/* ******************************************************************** */
 
-   
+.footer {
+  margin-left: 10px;
+}
+
+.first-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 200px;
+  margin-top: 20px;
+  /* padding-top: 30px; */
+}
+
+.first-footer-child {
+  margin-top: 5px;
+}
+
+.first-footer p {
+  font-size: 13px;
+  color: #464646;
+}
+
+.first-footer a {
+  font-size: 13px;
+
+  padding: 5px;
+}
+
+.border {
+  border-right: 1px solid rgb(184, 181, 181);
+}
+
+.border1 {
+  border-right: 1px solid rgb(184, 181, 181);
+  padding-right: 4px;
+}
+
+.usa-logo {
+  padding-top: -10px;
+  border-right: none;
+  height: 20px;
+
+}
+
+.second-footer p {
+  font-size: 13px;
+  color: #464646;
+
+}
