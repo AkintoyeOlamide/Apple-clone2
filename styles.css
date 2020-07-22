@@ -58,7 +58,6 @@ a:hover {
   border: 1px solid rgb(153, 152, 152);
   border-radius: 5px;
   font-size: 13px;
-  color: white;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   background-image: linear-gradient(to top, rgb(153, 152, 152) 0%, #4b4949 51%, rgb(167, 164, 164) 100%);
@@ -70,6 +69,16 @@ a:hover {
 
 .gradlink-style:hover {
   background-image: linear-gradient(to top, #bebbbb 0%, #464646 51%, #1b1b1b 100%);
+}
+
+.appleiconstyle {
+  font-size: 18px;
+}
+
+.gradlink-style a,
+.ilinksearch {
+  color: white;
+  text-decoration: none;
 }
 
 .verse-style {
