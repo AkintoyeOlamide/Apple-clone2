@@ -10,9 +10,6 @@ body {
 main {
   width: 100%;
   margin-top: -50px;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
 }
 
 ul,
@@ -44,7 +41,6 @@ a:hover {
 
 .navbar {
   width: 65%;
-  display: flex;
   margin-top: 30px;
   padding-left: 200px;
   flex-direction: row;
@@ -62,7 +58,7 @@ a:hover {
   border-radius: 5px;
   font-size: 13px;
   text-align: center;
-  font-family: Times New Roman;
+  font-family: sans-serif;
   background-image: linear-gradient(to top, rgb(153, 152, 152) 0%, #4b4949 51%, rgb(167, 164, 164) 100%);
 }
 
@@ -81,43 +77,27 @@ a:hover {
 .gradlink-style a,
 .ilinksearch {
   color: white;
-  text-decoration: none;
 }
 
 .verse-style {
-  display: flex;
-  justify-content: center;
   font-size: 70px;
-  font-weight: normal;
+  font-weight: 100;
   margin-top: 40px;
 }
 
 .verseDetails-style {
-  display: flex;
-  justify-content: center;
   margin-top: -70px;
   font-size: 34px;
 }
 
 .verseDetails1-style {
-  display: flex;
-  justify-content: center;
   font-size: 34px;
   margin-top: -25px;
 }
 
 .verselink-style a {
-  display: flex;
-  justify-content: center;
   font-size: 25px;
   font-weight: lighter;
-}
-
-.verse-style,
-.verseDetails-style,
-.verseDetails1-style,
-.verselink-style a {
-  color: rgb(240, 236, 236);
 }
 
 .searchbtn {
@@ -160,22 +140,12 @@ a:hover {
 .footer-style {
   width: 90%;
   margin-right: 150px;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
   font-size: 10px;
 }
 
 .first-footer {
-  display: flex;
   justify-content: space-between;
   margin-top: 15px;
-}
-
-.first-footer,
-.firstfooterchild2,
-.second-footer {
-  padding-left: 100px;
 }
 
 .first-footer p {
@@ -207,7 +177,32 @@ a:hover {
   margin-bottom: 15px;
 }
 
+.footerpadding {
+  padding-left: 100px;
+}
+
 /* commonclasses */
-.flex-style{
+
+.class1 {
   display: flex;
+}
+
+.class2 {
+  justify-content: center;
+}
+
+.class3 {
+  color: rgb(240, 236, 236);
+}
+
+.class4 {
+  font-family: sans-serif, 'Open Sans';
+}
+
+.class5 {
+  flex-direction: column;
+}
+
+.class6 {
+  align-content: center;
 }

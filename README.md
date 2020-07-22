@@ -2,7 +2,7 @@
 
 > This project consists of building a webpage using images as a background and adding gradients to elements. 
 
-<img src="img/ScreenShot.png">
+<img src="img/ScreenCapture.png">
 ## Built With
 
 - HTML
@@ -20,8 +20,7 @@
 
 👤 **Author2**
 
-- Github: [
-- Linkedin: [@AkintoyeOlamide](http://github.com/AkintoyeOlamide)
+- Github: [@AkintoyeOlamide](http://github.com/AkintoyeOlamide)
 
 ## Show your support
 
