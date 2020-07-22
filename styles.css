@@ -42,26 +42,26 @@ a:hover {
 .navbar {
   width: 65%;
   display: flex;
-  padding-top: 20px;
-  margin-top: 80px;
+  margin-top: 30px;
   padding-left: 200px;
   flex-direction: row;
 }
 
 .gradlink-style,
 .gradlinkwithouthover-style {
-  height: 25px;
+  height: 20px;
   width: 100px;
   margin-right: -5px;
-  margin-top: 100px;
-  padding: 16px 10px 5px 10px;
+  margin-top: 40px;
+  padding: 6px 10px 5px 10px;
   background-color: rgb(43, 42, 42);
-  border: 1px solid rgb(43, 42, 42);
-  border-radius: 4%;
+  border: 1px solid rgb(153, 152, 152);
+  border-radius: 5px;
+  font-size: 13px;
   color: white;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
-  background-image: linear-gradient(to top, #6a696b 0%, #080808 51%, #6a696b 100%);
+  background-image: linear-gradient(to top, rgb(153, 152, 152) 0%, #4b4949 51%, rgb(167, 164, 164) 100%);
 }
 
 .gradlinkwithouthover-style {
@@ -77,7 +77,7 @@ a:hover {
   justify-content: center;
   font-size: 70px;
   font-weight: normal;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .verseDetails-style {
@@ -111,9 +111,9 @@ a:hover {
 .searchbtn {
   width: 120px;
   height: auto;
-  border: 1px solid #1b1b1b;
-  border-radius: 10%;
-  background-image: linear-gradient(to top, #6a696b 0%, #080808 51%, #6a696b 100%);
+  border: 1px solid rgb(180, 176, 176);
+  border-radius: 12px;
+  background-image: linear-gradient(to top, rgb(180, 176, 176) 0%, #333232 51%, rgb(194, 194, 194) 100%);
 }
 
 .ilinksearch {
